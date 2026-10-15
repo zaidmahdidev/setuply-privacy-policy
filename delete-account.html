@@ -773,6 +773,10 @@
   </main>
 
   <footer>
+    <p style="margin-bottom: 8px; font-size: 13px;">
+      <span lang="ar">للمساعدة المباشرة: <a href="mailto:zaidmhdi33@gmail.com">zaidmhdi33@gmail.com</a> &bull; <a href="tel:+966559291894" dir="ltr">+966 55 929 1894</a> (الرياض، المملكة العربية السعودية)</span>
+      <span lang="en">Direct Support: <a href="mailto:zaidmhdi33@gmail.com">zaidmhdi33@gmail.com</a> &bull; <a href="tel:+966559291894">+966 55 929 1894</a> (Riyadh, Saudi Arabia)</span>
+    </p>
     <p>
       &copy; 2026 <span lang="ar">تطبيق سيت أب لي. جميع الحقوق محفوظة.</span><span lang="en">Setupply App. All rights reserved.</span>
       <span class="footer-divider">|</span>
@@ -949,7 +953,7 @@ I confirm that I wish to permanently delete my account and all associated data f
     }
 
     function sendEmailRequest() {
-      const recipient = 'support@setupply-app.com'; // cc: me@osamazayed.com
+      const recipient = 'zaidmhdi33@gmail.com'; // cc: me@osamazayed.com
       const subject = encodeURIComponent(`Account Deletion Request [${requestData.ref}] - Setupply`);
       const body = encodeURIComponent(getFormattedText());
       window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
